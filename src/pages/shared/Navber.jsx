@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 text-white p-4  max-w-screen-2xl mx-auto w-full">
+    <nav className="absolute bg-opacity-0 z-20 bg-gradient-to-tr  text-white p-4  max-w-screen-2xl mx-auto w-full">
       <div className="mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <h1 className="text-3xl font-bold btn-outline">Trade Snap</h1>
@@ -72,7 +72,7 @@ const Navbar = () => {
                 About Us
               </Link>
             </li>
-           
+
             <li className="py-2">
               <Link className="btn-outline" to="/contact">
                 Contact

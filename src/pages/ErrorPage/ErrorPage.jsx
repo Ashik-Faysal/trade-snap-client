@@ -1,19 +1,32 @@
-import { Link, useRouteError } from "react-router-dom";
+// ErrorPage.js
+import React from "react";
+import { FiArrowLeft } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 
 const ErrorPage = () => {
-  const { error, status } = useRouteError();
+  const navigate = useNavigate();
+  
+  const goBack = () => {
+navigate("/")
+  };
+
   return (
-        <div className="max-w-md mx-auto text-center"><h1 className="text-6xl text-red-500  my-8">404</h1>
-          <p className="text-2xl font-semibold text-red-500 md:text-3xl mb-8">
-            {error?.message}
-          </p>
-          <Link
-            to="/"
-            className="px-8 py-3  font-semibold rounded bg-cyan-200 text-gray-900"
-          >
-            Back to homepage
-          </Link>
-        </div>
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold text-red-500">
+          404 - Page Not Found
+        </h1>
+        <p className="mt-4 text-gray-600">
+          Oops! The page you're looking for doesn't exist.
+        </p>
+        <button
+          onClick={goBack}
+          className="mt-8 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded inline-flex items-center"
+        >
+          <FiArrowLeft className="mr-2" /> Go Back
+        </button>
+      </div>
+    </div>
   );
 };
 
