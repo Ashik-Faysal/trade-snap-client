@@ -39,7 +39,9 @@ const Login = () => {
         className="w-96 p-6 bg-gradient-to-bl from-rose-100 to-teal-100 shadow-2xl rounded-lg"
         onSubmit={handleSubmit(onSubmit)}
       >
-        <h2 className="text-3xl font-semibold mb-4">Login</h2>
+        <h2 className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-orange-500 via-blue-500 to-teal-500 text-transparent bg-clip-text text-3xl text-center font-bold mb-4">
+          Login Form
+        </h2>
         <div className="mb-2">
           <label className="block text-xl text-gray-600" htmlFor="email">
             Email

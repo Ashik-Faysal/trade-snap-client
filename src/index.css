@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-outline {
+  @apply border border-black text-black hover:bg-black hover:text-white hover:border-transparent transition duration-300 ease-in-out py-2 px-4 rounded-md;
+}
