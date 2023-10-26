@@ -4,11 +4,11 @@ import BannerSection from '../BannerSection';
 
 const Home = () => {
     return (
-      <div className='min-h-[70vh]'>
+      <div className="">
         <Helmet>
           <title>Trade Snap | Home</title>
         </Helmet>
-        <BannerSection/>
+        <BannerSection />
       </div>
     );
 };
