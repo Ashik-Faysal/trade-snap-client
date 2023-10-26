@@ -3,7 +3,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import banner1 from "../../assets/360_F_320461388_5Snqf6f2tRIqiWla.png"
 import banner2 from "../../assets/banner-template.png"
 import banner3 from "../../assets/banner2.png"
-// for this page I use "react-responsive-carousel"
 import banner4 from "../../assets/shopping-time-banner-with-realis.png"
 
 const BannerSection = () => {

@@ -51,9 +51,9 @@ const Register = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-bl from-rose-100 to-teal-100 flex items-center justify-center">
       <form
-        className="w-96 p-6 bg-white shadow-lg rounded-lg"
+        className="w-96 p-6 bg-gradient-to-bl from-rose-100 to-teal-100 shadow-2xl rounded-lg"
         onSubmit={handleSubmit(onSubmit)}
       >
         <h2 className="text-2xl font-semibold mb-4">Registration</h2>
@@ -168,6 +168,12 @@ const Register = () => {
         >
           Register
         </button>
+        <div className="my-4 flex items-center">
+          <div className="border-t border-gray-300 flex-grow"></div>
+          <div className="mx-4 text-gray-500">Or</div>
+          <div className="border-t border-gray-300 flex-grow"></div>
+        </div>
+
         <SocialLogin />
         <small>
           Already Have an Account? <Link to="/login">Login Here</Link>

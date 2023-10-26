@@ -34,14 +34,14 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-bl from-rose-100 to-teal-100 flex items-center justify-center">
       <form
-        className="w-96 md:w-1/3 p-6 bg-white shadow-lg rounded-lg"
+        className="w-96 p-6 bg-gradient-to-bl from-rose-100 to-teal-100 shadow-2xl rounded-lg"
         onSubmit={handleSubmit(onSubmit)}
       >
-        <h2 className="text-2xl font-semibold mb-4">Login</h2>
-        <div className="mb-4">
-          <label className="block text-gray-600" htmlFor="email">
+        <h2 className="text-3xl font-semibold mb-4">Login</h2>
+        <div className="mb-2">
+          <label className="block text-xl text-gray-600" htmlFor="email">
             Email
           </label>
           <Controller
@@ -66,7 +66,7 @@ const Login = () => {
           )}
         </div>
         <div className="mb-4 relative">
-          <label className="block text-gray-600" htmlFor="password">
+          <label className="block text-xl text-gray-600" htmlFor="password">
             Password
           </label>
           <Controller
@@ -98,16 +98,26 @@ const Login = () => {
           {errors.password && (
             <p className="text-red-500 text-sm">{errors.password.message}</p>
           )}
+          <div className="flex justify-end my-2">
+            <a to="#" className="hover:underline cursor-pointer text-blue-500">
+              Forgot Password
+            </a>
+          </div>
         </div>
-        <div className="grid md:grid-cols-2 justify-between">
+        <div className="">
           <button
             type="submit"
             className="w-full bg-blue-500 text-white font-semibold p-2 rounded-md hover:bg-blue-600"
           >
             Login
           </button>
-          <SocialLogin />
+        </div>{" "}
+        <div className="my-4 flex items-center">
+          <div className="border-t border-gray-300 flex-grow"></div>
+          <div className="mx-4 text-gray-500">Or</div>
+          <div className="border-t border-gray-300 flex-grow"></div>
         </div>
+        <SocialLogin />
         <small>
           New Here?{" "}
           <Link className="text-blue-500 hover:underline" to="/register">
@@ -115,7 +125,6 @@ const Login = () => {
           </Link>
         </small>
       </form>
-
       <ToastContainer />
     </div>
   );
