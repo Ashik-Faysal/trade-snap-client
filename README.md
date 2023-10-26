@@ -1,2 +1,2 @@
 # Trade Snap 
-# LiveSite : https://trade-snap-client.vercel.app/
+# LiveSite : https://trade-snap.web.app/
