@@ -8,7 +8,7 @@ const Menu = () => {
   const [selectedCategory, setSelectedCategory] = useState("");
 
   useEffect(() => {
-    fetch("/categories.json")
+    fetch("http://localhost:5000/menu")
       .then((response) => response.json())
       .then((data) => setItems(data));
   }, []);

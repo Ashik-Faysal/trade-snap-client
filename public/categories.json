@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "name": "Huawei CTZP5TUr",
     "image": "https://i.ibb.co/j5KbD14/CTZP5TUr.png",
     "price": 1499.99,
@@ -9,7 +8,6 @@
     "description": "A high-end mobile phone with great features."
   },
   {
-    "id": 2,
     "name": "MacBook",
     "image": "https://i.ibb.co/XsdTGnT/images.png",
     "price": 1999.99,
@@ -18,7 +16,6 @@
     "description": "Powerful laptop for work and entertainment."
   },
   {
-    "id": 3,
     "name": "RGB Computer",
     "image": "https://i.ibb.co/njjbHpg/images-2.png",
     "price": 799.99,
@@ -27,7 +24,6 @@
     "description": "A desktop computer for your home or office."
   },
   {
-    "id": 4,
     "name": "ArtStation - Specker",
     "image": "https://i.ibb.co/TMkLzdJ/images-3.png",
     "price": 129.99,
@@ -36,7 +32,6 @@
     "description": "High-quality speakers for music enthusiasts."
   },
   {
-    "id": 5,
     "name": "Creative SXFI THEATER Headphone",
     "image": "https://i.ibb.co/CVGLWkZ/hero-mobile-sxfi-theater.png",
     "price": 79.99,
@@ -45,7 +40,6 @@
     "description": "Comfortable headphones for an immersive audio experience."
   },
   {
-    "id": 6,
     "name": "Luxary Watch",
     "image": "https://i.ibb.co/7NMSr7M/2431.jpg",
     "price": 199.99,
@@ -55,7 +49,6 @@
   },
 
   {
-    "id": 7,
     "name": "Google Pixel",
     "image": "https://i.ibb.co/GJF1WHk/Pixel-Portfolio-Bay-Hazel-v-Zb6-Ki.png",
     "price": 549.99,
@@ -64,7 +57,6 @@
     "description": "A sleek and powerful mobile device."
   },
   {
-    "id": 8,
     "name": "Asus Laptop ",
     "image": "https://i.ibb.co/JnXpRNY/Untitled-2.png",
     "price": 799.99,
@@ -73,7 +65,6 @@
     "description": "Portable laptop for work and play."
   },
   {
-    "id": 9,
     "name": "Gaming Computer",
     "image": "https://i.ibb.co/KVs1D2f/960x0-10.png",
     "price": 899.99,
@@ -82,7 +73,6 @@
     "description": "A powerful desktop computer for professionals."
   },
   {
-    "id": 10,
     "name": "s Bluetooth Speaker Pure Sound Plus",
     "image": "https://i.ibb.co/wW103kM/portronics-bluetooth-speaker-pur.png",
     "price": 159.99,
@@ -91,7 +81,6 @@
     "description": "Compact and loud speakers for parties."
   },
   {
-    "id": 11,
     "name": "pTron Tangentbeat Magnetic",
     "image": "https://i.ibb.co/C8335PH/B08-LBBPLPT.png",
     "price": 89.99,
@@ -100,7 +89,6 @@
     "description": "Wireless headphones for on-the-go music lovers."
   },
   {
-    "id": 12,
     "name": "golden-chain",
     "image": "https://i.ibb.co/kG9ytKK/elegant-watch-with-silver-golden-chain-isolated.jpg",
     "price": 179.99,
@@ -109,7 +97,6 @@
     "description": "Durable and stylish watch for outdoor activities."
   },
   {
-    "id": 13,
     "name": "Apple Watch",
     "image": "https://i.ibb.co/Z613nVQ/3631-66187.png",
     "price": 209.99,
@@ -119,7 +106,6 @@
   },
 
   {
-    "id": 14,
     "name": "Xiaomi MIX Alpha",
     "image": "https://i.ibb.co/6rdS6j1/8345c393ly1g7anwr4e8rj21hc0u01kx.png",
     "price": 1699.99,
@@ -128,7 +114,6 @@
     "description": "Expensive mobile and more feature on this"
   },
   {
-    "id": 15,
     "name": "Iphone-15-15pro",
     "image": "https://i.ibb.co/VwRmHMV/iphone-15-15pro-01.png",
     "price": 1569.99,
@@ -137,7 +122,6 @@
     "description": "A budget-friendly mobile phone with decent features."
   },
   {
-    "id": 16,
     "name": "Dell laptop",
     "image": "https://i.ibb.co/x8xr7Rr/s-l1600.png",
     "price": 699.99,
@@ -146,7 +130,6 @@
     "description": "Affordable and reliable laptop for everyday use."
   },
   {
-    "id": 17,
     "name": "Workabe desktop",
     "image": "https://i.ibb.co/YyvrqxV/How-To-Build-A-Gaming-PC16704219.png",
     "price": 749.99,
@@ -155,7 +138,6 @@
     "description": "An all-in-one desktop computer for family use."
   },
   {
-    "id": 18,
     "name": "Logitech Surround Sound Z506",
     "image": "https://i.ibb.co/M656P9S/images-4.png",
     "price": 119.99,
@@ -164,7 +146,6 @@
     "description": "Compact speakers for home entertainment."
   },
   {
-    "id": 19,
     "name": "Bone Conduction Open",
     "image": "https://i.ibb.co/6FyhMnW/images-6.png",
     "price": 69.99,
@@ -173,7 +154,6 @@
     "description": "Basic headphones for music on a budget."
   },
   {
-    "id": 20,
     "name": "Luxury Sports Watches",
     "image": "https://i.ibb.co/k5W6F8n/images-7.png",
     "price": 159.99,
@@ -182,7 +162,6 @@
     "description": "Sleek watch with various watch faces."
   },
   {
-    "id": 21,
     "name": "Styles Headphone",
     "image": "https://i.ibb.co/cJf0FMT/grado-sr80x-prestige-series-wire.png",
     "price": 79.99,
@@ -191,7 +170,6 @@
     "description": "Noise-canceling headphones for a premium audio experience."
   },
   {
-    "id": 22,
     "name": "Samsung-s22-ultra",
     "image": "https://i.ibb.co/kKXnyGn/samsung-s22-ultra-down.png",
     "price": 529.99,
@@ -200,7 +178,6 @@
     "description": "Mid-range mobile phone for everyday use."
   },
   {
-    "id": 23,
     "name": "HP Laptop",
     "image": "https://i.ibb.co/zHtycpM/open-laptop-in-dark-murjp1nk4lp1.png",
     "price": 899.99,
@@ -209,7 +186,6 @@
     "description": "High-performance laptop for professionals."
   },
   {
-    "id": 24,
     "name": "Gaming Computer",
     "image": "https://i.ibb.co/Dfg1YqT/images-1.png",
     "price": 819.99,
@@ -218,7 +194,6 @@
     "description": "Compact desktop computer for small offices."
   },
   {
-    "id": 25,
     "name": "NZXT Relay Speakers",
     "image": "https://i.ibb.co/tHbKzWf/images-5.png",
     "price": 149.99,

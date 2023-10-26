@@ -7,7 +7,7 @@ import { ToastContainer } from "react-toastify";
 const Categories = () => {
   const [items, setItems] = useState([]);
   useEffect(() => {
-    fetch("/categories.json")
+    fetch("http://localhost:5000/menu")
       .then((response) => response.json())
       .then((data) => setItems(data));
   }, []);
