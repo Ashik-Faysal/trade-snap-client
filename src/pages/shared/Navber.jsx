@@ -26,6 +26,9 @@ const Navbar = () => {
           <Link className="btn-outline" to="/">
             Home
           </Link>
+          <Link className="btn-outline" to="/menu">
+            Menu
+          </Link>
           <Link className="btn-outline" to="/about">
             About Us
           </Link>
@@ -65,6 +68,11 @@ const Navbar = () => {
             <li className="py-2">
               <Link className="btn-outline" to="/">
                 Home
+              </Link>
+            </li>
+            <li className="py-2">
+              <Link className="btn-outline" to="/menu">
+                Menu
               </Link>
             </li>
             <li className="py-2">
